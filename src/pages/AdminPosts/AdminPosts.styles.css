@@ -1,0 +1,27 @@
+.AdminPosts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+
+.AdminPosts .AdminPosts_Heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.AdminPosts .AdminPostos_Editor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    width: 60%;
+}
+
+.AdminPosts .AdminPostos_Editor form textarea{
+    border-color: black;
+}

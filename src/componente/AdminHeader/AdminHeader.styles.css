@@ -1,0 +1,62 @@
+.AdminHeader{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('PacagesBg.png');
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.AdminHeader .AdminLogo{
+  background-image: url(bioBIH_logo.png);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 62px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.AdminHeader .WelcomeAdmin{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px auto 30px auto;
+  padding: 0px;
+}
+
+.AdminHeader .WelcomeAdmin h4{
+  color: white;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.AdminHeader .WelcomeAdmin p{
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.AdminHeader .WelcomeAdmin p:hover{
+  color: greenyellow;
+  cursor: pointer;
+}
+
+.AdminHeader .WelcomeAdmin .AdminLogout{
+  cursor: pointer;
+}
+
+.AdminHeader .WelcomeAdmin .AdminLogout:hover{
+  cursor: pointer;
+  color: greenyellow;
+}

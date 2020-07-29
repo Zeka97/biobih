@@ -1,0 +1,50 @@
+.OnePost{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    padding: auto;
+}
+
+.OnePost .post_image{
+    height: 300px;
+    width: 400px;
+}
+
+.OnePost .PostHeading{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.OnePost .PostHeading h3{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 650px){
+    .OnePost{
+        height: 400px;
+        width: 300px;
+        margin: auto;
+        padding: auto;
+    }
+    
+    .OnePost .post_image{
+        height: 200px;
+        width: 300px;
+    }
+    
+    .OnePost .PostHeading{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .OnePost .PostHeading h3{
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 0;
+    }   
+}

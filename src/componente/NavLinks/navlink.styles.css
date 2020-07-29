@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&display=swap");
+
+.navbar {
+  width: 100%;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+.link {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.sidedrawer {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.sidedrawer li {
+  margin-bottom: 20%;
+}
+.sidedrawer .link {
+  text-decoration: none;
+  color: black;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+.sidedrawer button {
+  background-color: #ff772e;
+  color: white;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}

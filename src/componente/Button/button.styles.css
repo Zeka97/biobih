@@ -1,0 +1,78 @@
+.myButton {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #d0af4a;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 28px;
+  padding: 1.9656019656019657vh 1.8907563025210083vw;
+  text-decoration: none;
+  border: none;
+  transition: 0.3s;
+  outline: none;
+}
+.myButton:hover {
+  background-color: #e0d314;
+  color: #fff;
+  opacity: 1;
+  background-color: rgb(223, 112, 49);
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgb(233, 154, 7), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shop {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #79831b;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 18px;
+  padding: 1.6375545851528384vh 2.598752598752599vw;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+.onamabutton {
+  background-color: #c2be0a;
+  border-radius: 10px;
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  color: white;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 90%;
+  text-decoration: none;
+  border: none;
+  margin-top: 3%;
+  outline: none;
+}
+
+.rezervisi {
+  background-color: rgb(190, 113, 68);
+  border-radius: 10px;
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  width: auto;
+  cursor: pointer;
+  color: white;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 70%;
+  padding: 1.7391304347826086vh 2.622950819672131vw;
+  text-decoration: none;
+  border: none;
+  margin-top: 5%;
+  transition: 0.5s;
+  outline: none;
+}
+
+.rezervisi:hover {
+  opacity: 1;
+  background-color: rgb(223, 112, 49);
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

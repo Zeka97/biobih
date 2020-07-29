@@ -1,0 +1,52 @@
+.AdminMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.AdminMenu .link{
+    color: black;
+    padding: 0px 20px 0px 20px;
+    font-size: x-large;
+}
+
+.AdminMenu .link:hover{
+    color: red;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+
+.AdminMenu .AdminKorisnici{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+
+}
+
+.AdminMenu .AdminNarudzbe{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.AdminMenu .AdminCijene{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.AdminMenu .AdminPostovi{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.AdminMenu .AdminDates{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}

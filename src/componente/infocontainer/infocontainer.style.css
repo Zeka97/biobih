@@ -1,0 +1,72 @@
+@media only screen and (min-width: 930px)
+{
+.displaybox1_ikoneitekst{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.displaybox1_ikoneitekst_testbox1{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.displaybox1_ikoneitekst_testbox1 h2 {
+    font-size: 2.3vh;
+    margin:0;
+}
+.displaybox1_ikoneitekst_testbox1 p {
+    font-size: 1.7vh;
+    margin-top: 2%;
+}
+.ikona{
+    width:auto;
+    max-height: 100px;
+}
+.displaybox1_moreinfo .displaybox1_ikoneitekst_testbox1{
+    color: black;
+    font-family: 'Encode Sans', sans-serif;
+}
+}
+
+@media only screen and (max-width: 930px)
+{
+.displaybox1_ikoneitekst{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.displaybox1_ikoneitekst_testbox1{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.displaybox1_ikoneitekst_testbox1 h2 {
+    font-size: 2vh;
+    margin:0;
+    width: auto;
+}
+.displaybox1_ikoneitekst_testbox1 p {
+    font-size: 1.5vh;
+    margin-top: 2%;
+    width: 70%;
+}
+.ikona{
+    width:70px;
+    max-height: 70px;
+}
+.displaybox1_moreinfo .displaybox1_ikoneitekst_testbox1{
+    color: black;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+}

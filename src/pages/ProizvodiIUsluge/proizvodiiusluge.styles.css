@@ -1,0 +1,280 @@
+@media only screen and (min-width: 930px) {
+  .proizvodiiusluge {
+    background-image: url("./paketi_bckground.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .proizvodiiusluge-displaycontainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .maincontainer {
+    height: 45%;
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .paketiusluga {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .textbox {
+    height: 100%;
+    width: 40%;
+  }
+  .textbox .text {
+    height: 100%;
+    width: auto;
+    margin-left: 20%;
+  }
+  .textbox .text p {
+    color:white;
+    font-size: 1.1vw;
+    margin: 0;
+  }
+  .textbox .text h1 {
+    color:white;
+    margin-top: 0;
+  }
+  .infographic{
+    color:white;
+    margin: 40px 10px auto 200px;
+    padding: 0px;
+    cursor: pointer;
+  }
+
+.proizvodiiusluge .proizvodiiusluge-displaycontainer .paket_po_mjeri{
+  display: flex;
+  flex-direction: row;
+}
+.proizvodiiusluge .proizvodiiusluge-displaycontainer .paket_po_mjeri .arrow{
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 32px;
+  background-image: url("./arrow.svg");
+  margin: 40px auto auto 10px;
+  padding: auto auto auto 0px;
+}
+
+.proizvodiiusluge .infographics_button{
+  display: flex;
+  flex-direction: row;
+}
+
+.proizvodiiusluge .infographics_button .arrow{
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 32px;
+  background-image: url("./arrow.svg");
+  margin: 40px auto auto 10px;
+  padding: auto auto auto 0px;
+}
+
+  .animate-reveal {
+    opacity: 0;
+    -webkit-animation: reveal 3s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    -moz-animation: reveal 3s ease-in 1 normal forwards;
+    -o-animation: reveal 3s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    animation: reveal 3s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  }
+
+  .animate-first {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
+  }
+
+  .animate-second {
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+  }
+
+  @-webkit-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      -o-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @-moz-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      -o-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @-o-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      -o-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      -o-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .proizvodiiusluge{
+    overflow-y: auto;
+    height: auto;
+  }
+
+  .proizvodiiusluge .proizvodiiusluge-displaycontainer .paket_po_mjeri{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 50%;
+    margin-top: 30%
+  }
+  .proizvodiiusluge .infographics_button a{
+    align-self: center;
+    margin-left: 10%;
+  }
+  .proizvodiiusluge .proizvodiiusluge-displaycontainer .paket_po_mjeri .infographic{
+    margin: 0;
+    text-decoration: none;
+    margin-left: 10%;
+  }
+  
+  .proizvodiiusluge .proizvodiiusluge-displaycontainer .paket_po_mjeri .arrow{
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 32px;
+    background-image: url("./arrow.svg");
+    margin: 0;
+    padding: auto auto auto 0px;
+  }
+  
+  .proizvodiiusluge .infographics_button{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100px;
+  }
+  .proizvodiiusluge .infographics_button .infographic{
+    margin: 0;
+  }
+  
+  .proizvodiiusluge .infographics_button .arrow{
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 32px;
+    background-image: url("./arrow.svg");
+    margin: 40px auto 20px 10px;
+    padding: auto auto auto 0px;
+  }
+  .proizvodiiusluge {
+    background-image: url("./paketi_bckground.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+  .proizvodiiusluge-displaycontainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .maincontainer {
+    margin-top: 3%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .paketiusluga {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+  .textbox {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .textbox .text {
+    height: 100%;
+    width: auto;
+    margin-left: 10%;
+    font-size: 1.75vh;
+  }
+  .textbox .text h1 {
+    color:white;
+    margin: 0;
+  }
+  .textbox .text p {
+    color:white;
+    margin: 0;
+  }
+  .infographic{
+    cursor: pointer;
+    color:white;
+    margin: 40px 10px 80px 50px;
+    padding: 0px;
+  }
+}

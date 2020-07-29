@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700;900&display=swap");
+@media only screen and (min-width: 930px) {
+  .onamapage {
+    background-image: url("./onama_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .onamacontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+    width: auto;
+  }
+  .title {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    height: 10%;
+    margin-bottom: 2vh;
+  }
+  .title-description{
+    color:white;
+   text-align: center;
+   font-size: 3vh;
+    margin-top: 0;
+  }
+  .title h2 {
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 100;
+  }
+  .maindisplaycontainer {
+    font-family: "Encode Sans", sans-serif;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .displaybox1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* VIDI VISE BUTTON */
+  .displaybox1 h3{
+    color: rgba(229, 238, 241, 0.733);
+    margin-top: 6vh;
+    font-size: 26px;
+  }
+  .displaybox1 h3:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  /*------------------------*/
+
+
+  .displaybox2 {
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-left: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .displaybox2 p {
+    color:white;
+    font-family: "Encode Sans", sans-serif;
+    padding: auto;
+    margin: auto;
+  }
+  .displaybox2_textibuttoncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+    margin: auto auto auto 0px;
+    padding: auto auto auto 0px;
+  }
+  .displaybox2_textibuttoncontainer button {
+    width: 80%;
+    margin: auto auto auto 0px;
+    font-size: 0.7vw;
+    padding: auto;
+  }
+  .displaybox2_textibuttoncontainer p {
+    font-size: 1.5vh;
+  }
+
+  .openmoreinfo {
+   display:none;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .onamapage {
+    background-image: url("./onama_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+  }
+  .onamacontainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 80%;
+  }
+  .title {
+    text-align: center;
+    color: white;
+    font-size: 15;
+    height: 10%;
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+  .title-description{
+    color:white;
+    text-align: center;
+    font-size: 15px;
+     margin-top: 0;
+   }
+  .maindisplaycontainer {
+    font-family: "Encode Sans", sans-serif;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .displaybox1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top:300px;
+  }
+  .displaybox1 h3{
+    display: none;
+  }
+  .displaybox2 {
+    margin-top: 5vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .displaybox2_textibuttoncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+  }
+  .displaybox2_textibuttoncontainer p {
+    color: white;
+    font-size: 1.4vh;
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .displaybox2_textibuttoncontainer p br{
+    display: none;
+  }
+  .displaybox2_textibuttoncontainer button {
+    width: 30%;
+    margin-bottom: 2vh;
+  }
+
+  .openmoreinfo {
+    color: rgba(229, 238, 241, 0.733);
+    z-index:2;
+  }
+  .openmoreinfo:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+}
+
+.popup-reveal {
+  opacity: 0;
+  -webkit-animation: popup 3s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  -moz-animation: popup 3s ease-in 1 normal forwards;
+  -o-animation: popup 3s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  animation: popup 3s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+}
+
+.popup-first {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+
+.animate-second {
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  -o-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+@-webkit-keyframes popup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes popup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes popup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,50 @@
+.Certifikati{
+    display: flex;
+    flex-direction: column;
+}
+
+.Certifikati .HeaderPicture{
+    background-image: url("./certifikati_header.jpg");
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+
+}
+
+.Certifikati .HeaderPicture .CertifikatiNaslov {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px auto 100px auto;
+    padding: auto;
+}
+
+.Certifikati .HeaderPicture .CertifikatiNaslov h1{
+    color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40pt;
+}
+
+.Certifikati .SlikeCertifikata{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+}
+
+.Certifikati .SlikeCertifikata .slika{
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+}
+

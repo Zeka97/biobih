@@ -1,0 +1,137 @@
+@media only screen and (min-width:930px)
+{
+    .platformapage{
+        height: 100vh;
+        width: 100%;
+        background-image:url("./platforma_bg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+.maindisplaypagecontainer{
+    margin-top: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.maindisplaypagecontainer h2{
+    color: white;
+    margin-top:0;
+    font-size: 2vw;
+}
+.maindisplaypagecontainer h3{
+    color: white;
+    margin-bottom: 0%;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.PlatformaButton{
+    margin-top:20px;
+    margin-left: 15%;
+}
+}
+
+@media only screen and (max-width:930px)
+{
+    .platformapage{
+        height: 100vh;
+        background-image:url("./platforma_bg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .maindisplaypagecontainer{
+        margin-top: 15vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .maindisplaypagecontainer h2{
+        color:white;
+        margin-top:0;
+        font-size: 3vw;
+    }
+    .maindisplaypagecontainer h3{
+        color:white;
+        margin-bottom: 0%;
+        font-weight: 500;
+        font-size: 2.3vw;
+    }
+    .platformapage button{
+        margin-top:5%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width:600px)
+{
+    .platformapage{
+        height: 100vh;
+        background-image:url("./platforma_bg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .maindisplaypagecontainer{
+        margin-top: 45%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .maindisplaypagecontainer h2{
+        color:white;
+        margin-top:0;
+        font-size: 4vw;
+    }
+    .maindisplaypagecontainer h3{
+        color:white;
+        margin-bottom: 0%;
+        font-weight: 500;
+        font-size: 3vw;
+    }
+    .platformapage button{
+        margin-top:5%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width:400px)
+{
+    .platformapage{
+        height: 100vh;
+        background-image:url("./platforma_bg.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .maindisplaypagecontainer{
+        margin-top: 30%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .maindisplaypagecontainer h2{
+        color:white;
+        margin-top:0;
+        font-size: 5vw;
+    }
+    .maindisplaypagecontainer h3{
+        color:white;
+        margin-bottom: 0%;
+        font-weight: 500;
+        font-size: 5vw;
+    }
+    .platformapage button{
+        margin-top:5%;
+        margin-left: 15%;
+    }
+}

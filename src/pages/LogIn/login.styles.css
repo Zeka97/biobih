@@ -1,0 +1,143 @@
+.loginpage{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.loginpage h3{
+  color: white;
+  width: 50%;
+}
+ 
+.loginpage .logindisplay .loginforma h1{
+  color: white;
+}
+ 
+.logodisplay{
+ 
+  margin: 0;
+  height: 100%;
+  width: 50%;
+  background-image: url('./forma_bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoimage:hover{
+  cursor: pointer;
+}
+ 
+.logindisplay{
+  background-image: url('./right_bg.png');
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.loginforma{
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+ 
+ 
+.email_input{
+        background: none;
+        border: none;
+        border-bottom: solid 2px #fff;
+        color: #fff;
+        font-size: 1em;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin: 0em 0 1.875em 0;
+        padding: 0 0 0.875em 0;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+input[type="password"]{
+  letter-spacing: 5px;
+ 
+}
+ 
+ 
+ 
+/* TELEFON */
+ 
+@media only screen and (max-width: 780px) {
+  .loginpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .loginpage .logindisplay .loginforma h1{
+    color: white;
+  }
+ 
+  .logodisplay{
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    background-image: url('./forma_bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+ 
+ 
+  .logindisplay{
+    background-image: url('./right_bg.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+  .loginforma{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+ 
+ 
+  .email_input{
+          background: none;
+          border: none;
+          border-bottom: solid 2px #fff;
+          color: #fff;
+          font-size: 1em;
+          font-weight: 400;
+          letter-spacing: 1px;
+          margin: 0em 0 1.875em 0;
+          padding: 0 0 0.875em 0;
+          width: 100%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+          -o-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+  input[type="password"]{
+    letter-spacing: 5px;
+ 
+  }
+}  

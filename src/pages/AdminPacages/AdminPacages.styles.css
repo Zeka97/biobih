@@ -1,0 +1,19 @@
+.AdminPacages {
+    display: flex;
+    flex-direction: column;
+}
+
+.AdminPacages .AdminPacagesHeader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+.AdminPacages .AdminPacagesPaketi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}

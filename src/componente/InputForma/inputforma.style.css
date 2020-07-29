@@ -1,0 +1,22 @@
+.email_input{
+    background: none;
+    border: none;
+    border-bottom: solid 2px #fff;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.email_input:focus,
+select:focus{
+    outline: none;
+}

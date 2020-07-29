@@ -1,0 +1,777 @@
+.userpage {
+  color:white;
+  background-image:url('./LogIn\ –\ 1.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.userpage h4{
+  cursor: pointer;
+  margin: 0 auto 30px auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.userpage h4:hover{
+  color:red;
+}
+.userpage-logo{
+  margin: 100px auto 20px auto;
+  height: 73px;
+  width: 56px;
+}
+.userpage-username{
+  height: 60px;
+}
+.userpage-bearlogo{
+  height: 193px;
+  width: 208px;
+}
+
+.UserProfile{
+  display: flex;
+  flex-direction: column;
+}
+ 
+.UserProfile .UserProfile_UserHeader{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('UserHeaderPic.png');
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+ 
+.UserProfile .UserProfile_UserHeader .UserProfile_Logo {
+  margin: auto;
+  width: 62px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  background-image:url('./bioBIH_logo.png');
+  background-repeat: no-repeat;
+}
+ 
+.UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  width: 200px;
+  padding-top: 90px;
+}
+ 
+.UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Text{
+  width: 200px;
+}
+ 
+.UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Text h4{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: auto;
+  color: white;
+}
+ 
+.UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Logout h4{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: auto;
+  color: #F7D873;
+}
+.UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Logout h4:hover{
+  cursor: pointer;
+}
+ 
+.UserProfile .Zalihe{
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 30px;
+}
+ 
+.UserProfile .NoveZalihe {
+    box-shadow: 0px 2px 16px 0px #f54500;
+    background-color:#f07605;
+    border-radius:13px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:16px 31px;
+    text-decoration:none;
+}
+.UserProfile .NoveZalihe:hover {
+    background-color:#ff9900;
+}
+.UserProfile .NoveZalihe:active {
+    position:relative;
+    top:1px;
+}
+ 
+.UserProfile .UserInfo{
+  color: #636363;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding-top: 30px;
+}
+ 
+.UserProfile .UserInfo h1{
+  color: #636363;
+  font-size: xxlarge;
+  padding:0;
+  display: flex;
+  justify-content: center;
+}
+ 
+.UserProfile .InfoZalihe{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+ 
+.UserProfile .InfoZalihe .Krompir{
+  width: 150px;
+  height: 150px;
+  background-color: #56993D;
+  background-clip: content-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:0;
+  margin: auto 10px auto 10px;
+  margin-bottom: 0;
+  border-radius: 25px;
+}
+ 
+.UserProfile .InfoZalihe .Krompir h2{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: x-large;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+ 
+.UserProfile .InfoZalihe .Krompir h1{
+   display: flex;
+   justify-content: center;
+   height: 50px;
+   padding: 0px;
+   color: white;
+   font-size: medium;
+}
+.UserProfile .Narucivanje h1{
+  color: #636363;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+ 
+}
+ 
+.UserProfile .Narucivanje .Input{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  height: 80px;
+}
+ 
+.UserProfile .Narucivanje .Input{
+  display: flex;
+  flex-direction: row;
+}
+ 
+.UserProfile .Narucivanje .Input .UserInput {
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 50px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #56993D;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  margin-bottom: 100px;
+  width: 60px;
+  height: 30px;
+}
+.UserProfile .Narucivanje .Input .UserInput {
+  outline:none;
+}
+ 
+.UserProfile .Narucivanje .Input p{
+  padding-left: 20px;
+  font-size: x-large;
+  margin-top: 0;
+  margin-right: 20px;
+}
+ 
+.UserProfile .Narucivanje h2{
+  color: #636363;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+ 
+.UserProfile .Narucivanje .select {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 200px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+ 
+.UserProfile .Narucivanje .select select {
+  font-family: 'Arial';
+  width: 200px;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0px solid #56993D;
+  border-radius: 0px;
+  background: #e6e6e6;
+  color: #7b7b7b;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+ 
+.UserProfile .Narucivanje .select select::-ms-expand {
+  display: none;
+}
+.UserProfile .Narucivanje .select select:hover,
+.UserProfile .Narucivanje .select select:focus {
+  color: #56993D;
+  background: #cccccc;
+}
+.UserProfile .Narucivanje .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.UserProfile .Narucivanje .select_arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0px 5px;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+ 
+.UserProfile .Narucivanje select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #FFFFFF;
+  background-image: none;
+}
+/* Remove IE arrow */
+.UserProfile .Narucivanje select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.UserProfile .Narucivanje .select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #e6e6e6;
+  overflow: hidden;
+  border-radius: .25em;
+  margin: 0 auto;
+}
+.UserProfile .Narucivanje select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+#slct{
+  margin: 0;
+  padding: 0 10%;
+}
+/* Arrow */
+.UserProfile .Narucivanje .select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #56993D;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.UserProfile .Narucivanje .select:hover::after {
+  color: #f39c12;
+}
+ 
+.UserProfile .Narucivanje .NaruciDugme {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+ 
+}
+ 
+.UserProfile .Narucivanje .NaruciDugme .Naruci {
+    box-shadow: 0px 2px 16px 0px #f54500;
+    border: none;
+    background-color:#f07605;
+    border-radius:13px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:16px 31px;
+    text-decoration:none;
+}
+ 
+.UserProfile .Narucivanje .ListaNarudzbi{
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 30px;
+}
+ 
+.UserProfile .Narucivanje .ListaNarudzbi .Naruceno{
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto 10px auto;
+  justify-content: center;
+  width: 350px;
+}
+ 
+.UserProfile .Narucivanje .ListaNarudzbi .Naruceno p{
+  padding: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 0px 0px ;
+}
+
+.potvrdaizvrseneposiljke{
+  color:rgb(46, 46, 252);
+  text-decoration: underline;
+}
+
+.potvrdaizvrseneposiljke:hover{
+  cursor: pointer; 
+}
+
+
+
+
+/* TELEFON */
+
+@media only screen and (max-width: 930px) {
+
+  .userpage {
+    background-image:url('./LogIn\ –\ 1.png');
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .userpage-logo{
+    height: 143px;
+    width: 126px;
+  }
+  .userpage-username{
+    height: 60px;
+  }
+  .userpage-bearlogo{
+    height: 193px;
+    width: 208px;
+  }
+  
+  UserProfile{
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .UserProfile .UserProfile_UserHeader{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('UserHeaderPic.png');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+   
+  .UserProfile .UserProfile_UserHeader .UserProfile_Logo {
+    margin: auto;
+    width: 62px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    background-image:url('./bioBIH_logo.png');
+    background-repeat: no-repeat;
+  }
+   
+  .UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    width: 200px;
+    padding-top: 90px;
+  }
+   
+  .UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Text{
+    width: 200px;
+  }
+   
+  .UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Text h4{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    color: white;
+  }
+   
+  .UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Logout h4{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    color: #F7D873;
+  }
+  .UserProfile .UserProfile_UserHeader .UserProfile_UserWelcome .UserProfile_Logout h4:hover{
+    cursor: pointer;
+  }
+   
+  .UserProfile .Zalihe{
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+  }
+   
+  .UserProfile .NoveZalihe {
+      box-shadow: 0px 2px 16px 0px #f54500;
+      background-color:#f07605;
+      border-radius:13px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:16px;
+      padding:16px 31px;
+      text-decoration:none;
+  }
+  .UserProfile .NoveZalihe:hover {
+      background-color:#ff9900;
+  }
+  .UserProfile .NoveZalihe:active {
+      position:relative;
+      top:1px;
+  }
+   
+  .UserProfile .UserInfo{
+    color: #636363;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+  }
+   
+  .UserProfile .UserInfo h1{
+    color: #636363;
+    font-size: xxlarge;
+    padding:0;
+    display: flex;
+    justify-content: center;
+  }
+   
+  .UserProfile .InfoZalihe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    width: auto;
+    margin-left: 0px;
+  }
+   
+  .UserProfile .InfoZalihe .Krompir{
+    width: 150px;
+    height: 150px;
+    background-color: #56993D;
+    background-clip: content-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px auto 5px auto;
+    border-radius: 25px;
+  }
+   
+  .UserProfile .InfoZalihe .Krompir h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    margin-bottom: 0;
+    padding-top: 10px;
+  }
+   
+  .UserProfile .InfoZalihe .Krompir h1{
+     display: flex;
+     justify-content: center;
+     height: 50px;
+     padding: 0px;
+     color: white;
+     font-size: medium;
+  }
+  .UserProfile .Narucivanje h1{
+    color: #636363;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+  }
+   
+  .UserProfile .Narucivanje .Input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto auto auto;
+    height: 80px;
+  }
+  
+   
+  .UserProfile .Narucivanje .Input .UserInput {
+
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #56993D;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    margin: auto;
+    width: 90px;
+    height: 90px;
+  }
+  .UserProfile .Narucivanje .Input .UserInput {
+    outline:none;
+  }
+   
+  .UserProfile .Narucivanje .Input p{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+  }
+   
+  .UserProfile .Narucivanje h2{
+    margin-top: 100px;
+    color: #636363;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+  }
+   
+  .UserProfile .Narucivanje .select {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 200px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+   
+  .UserProfile .Narucivanje .select select {
+    font-family: 'Arial';
+    width: 200px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: 0;
+    border: 0px solid #56993D;
+    border-radius: 0px;
+    background: #e6e6e6;
+    color: #7b7b7b;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+   
+  .UserProfile .Narucivanje .select select::-ms-expand {
+    display: none;
+  }
+  .UserProfile .Narucivanje .select select:hover,
+  .UserProfile .Narucivanje .select select:focus {
+    color: #56993D;
+    background: #cccccc;
+  }
+  .UserProfile .Narucivanje .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .UserProfile .Narucivanje .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+  }
+   
+  .UserProfile .Narucivanje select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #FFFFFF;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  .UserProfile .Narucivanje select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .UserProfile .Narucivanje .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #e6e6e6;
+    overflow: hidden;
+    border-radius: .25em;
+    margin: 0 auto;
+  }
+  .UserProfile .Narucivanje select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+  #slct{
+    margin: 0;
+    padding: 0 10%;
+  }
+  /* Arrow */
+  .UserProfile .Narucivanje .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #56993D;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .UserProfile .Narucivanje .select:hover::after {
+    color: #f39c12;
+  }
+   
+  .UserProfile .Narucivanje .NaruciDugme {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+  }
+   
+  .UserProfile .Narucivanje .NaruciDugme .Naruci {
+      box-shadow: 0px 2px 16px 0px #f54500;
+      border: none;
+      background-color:#f07605;
+      border-radius:13px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:16px;
+      padding:16px 31px;
+      text-decoration:none;
+  }
+   
+  .UserProfile .Narucivanje .ListaNarudzbi{
+    margin: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+   
+  .UserProfile .Narucivanje .ListaNarudzbi .Naruceno{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    width: 350px;
+  }
+   
+  .UserProfile .Narucivanje .ListaNarudzbi .Naruceno p{
+    padding: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .potvrdaizvrseneposiljke{
+    color:rgb(46, 46, 252);
+    text-decoration: underline;
+  }
+  
+  .potvrdaizvrseneposiljke:hover{
+    cursor: pointer; 
+  }
+
+
+}

@@ -1,0 +1,193 @@
+.footer {
+  position: fixed;
+  height: 7vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('footer_bg.png');
+}
+.onamapagebackground {
+  position: fixed;
+  height: 7vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('onama_footer.png');
+}
+.proizvodiiuslugebackground {
+  position: fixed;
+  height: 7vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('proizvodiiusluge_footer.jpg');
+}
+.platformabackground {
+  position: fixed;
+  height: 7vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('platforma_footer.png');
+}
+.kontaktbackground {
+  position: fixed;
+  height: 7vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('kontakt_footer.png');
+}
+
+.footer .socialmedia {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 2%;
+  color: white;
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+.footer .socialmedia .icon1 {
+  background-image: url('./facebook.svg');
+  height: 32px;
+  width: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer .socialmedia .icon1 a{
+  height: 32px;
+  width: 32px;
+}
+
+.footer .socialmedia .icon2 {
+  background-image: url('./instagram.svg');
+  height: 32px;
+  width: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+.footer .socialmedia .icon2 a{
+  height: 32px;
+  width: 32px;
+}
+
+.footer .socialmedia .icon3 {
+  background-image: url('./youtube.svg');
+  height: 32px;
+  width: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.footer .socialmedia .icon3 a{
+  height: 32px;
+  width: 32px;
+}
+
+.footer .socialmedia .social_link{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0px;
+}
+
+.footer .socialmedia a{
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+  .footer {
+    position: fixed;
+    height: 7vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .socialmedia {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 2%;
+    color: white;
+    font-size: 1em;
+    padding-bottom: 10px;
+  }
+  
+  .footer .socialmedia .icon1 {
+    background-image: url('./facebook.svg');
+    height: 32px;
+    width: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .footer .socialmedia .icon1 a{
+    height: 32px;
+    width: 32px;
+  }
+  
+  .footer .socialmedia .icon2 {
+    background-image: url('./instagram.svg');
+    height: 32px;
+    width: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+  }
+
+  .footer .socialmedia .icon2 a{
+    height: 32px;
+    width: 32px;
+  }
+  
+  .footer .socialmedia .icon3 {
+    background-image: url('./youtube.svg');
+    height: 32px;
+    width: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+  }
+
+  .footer .socialmedia .icon3 a{
+    height: 32px;
+    width: 32px;
+  }
+  
+  .footer .socialmedia .social_link{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    display: none;
+  }
+  
+
+}

@@ -1,0 +1,20 @@
+.AdminAllDeliveries{
+    color: black;
+}
+
+.AdminAllDeliveries .AdminAllDeliveriesTable{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.AdminAllDeliveries .ExpExcel{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.AdminAllDeliveries button{
+    color: black;
+}

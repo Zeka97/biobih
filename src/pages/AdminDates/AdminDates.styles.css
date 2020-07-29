@@ -1,0 +1,49 @@
+.AdminDates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: black;
+}
+
+.AdminDates .AdminDatesNaslov{
+    margin: auto;
+}
+
+.AdminDates .AdminDatesDatum{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.AdminDates .AdminDatesDatum button, input, select, textarea {
+    color: black;
+    font: inherit;
+    margin: 0;
+}
+
+.AdminDates .DatumiZaIsporuke{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.AdminDates .DatumiZaIsporuke .Naruceno{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.AdminDates .DatumiZaIsporuke .Naruceno p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.AdminDates .DatumiZaIsporuke .Naruceno p:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}

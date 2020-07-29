@@ -1,0 +1,191 @@
+@media only screen and (min-width: 930px)
+{
+.moreinfo{
+    margin-top:15vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.moreinfo_title_box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 10%;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.moreinfo_hide_more_info{
+    color: rgba(229, 238, 241, 0.733);
+}
+.moreinfo_hide_more_info:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.moreinfo_title{
+    color:white;
+    font-size: 42px;
+    justify-content: start;
+    margin-bottom: 0;
+}
+.moreinfo_about_container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.moreinfo_about_iconandtextbox{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+.moreinfo_about_iconandtextbox .displaybox1_ikoneitekst{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.moreinfo_about_iconandtextbox .displaybox1_ikoneitekst_testbox1{
+    height: 100%;
+}
+.moreinfo_about_iconandtextbox .displaybox1_ikoneitekst_testbox1 p {
+    font-size: 0.7vw;
+}
+.moreinfo_about_iconandtextbox .displaybox1_ikoneitekst_testbox1 h2 {
+    font-size: 1.2vw;
+}
+
+.moreinfo_about_container_paragraphbox{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    
+}
+.moreinfo_about_container_pagraph_textbox{
+    height: 98%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.moreinfo_about_container_pagraph_textbox div{
+    height:auto;
+    margin-left: 5%;
+}
+.moreinfo_about_container_pagraph_textbox div p{
+    font-size: 0.8vw;
+    color: black;
+}
+.moreinfo_about_container_pagraph_textbox button{
+    margin-left: 5%;
+}
+}
+
+.moreinfo_about_container .TextContainer{
+    width: 80%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.moreinfo_about_container .TextContainer .ONamaDugme{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 930px)
+{
+    .moreinfo{
+        margin-top:10vh;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .moreinfo_title_box
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 20vh;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .moreinfo_hide_more_info{
+        color: rgba(229, 238, 241, 0.733);
+        margin: 0;
+    }
+    .moreinfo_hide_more_info:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    .moreinfo_title{
+        font-size: 6vw;
+        justify-content: start;
+        margin-top: 20%;
+        margin: 0;
+        color:white;
+    }
+    .moreinfo_about_container{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .moreinfo_about_iconandtextbox{
+        height: 23vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .moreinfo_about_iconandtextbox .displaybox1_ikoneitekst{
+        height: 100%;
+        display: flex;
+    }
+    .moreinfo_about_iconandtextbox .displaybox1_ikoneitekst_testbox1{
+        height: 100%;
+    }
+    .moreinfo_about_iconandtextbox .displaybox1_ikoneitekst_testbox1 p {
+        font-size: 2.3vw;
+    }
+    .moreinfo_about_iconandtextbox .displaybox1_ikoneitekst_testbox1 h2 {
+        font-size: 3vw;
+    }
+    
+    .moreinfo_about_container_paragraphbox{
+        height: 70vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .moreinfo_about_container_pagraph_textbox{
+        height: auto;
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .moreinfo_about_container_pagraph_textbox div{
+        height:60%;
+        margin-left: 5%;
+    }
+    .moreinfo_about_container_pagraph_textbox div p{
+        font-size: 90%;
+        color: black;
+    }
+    .moreinfo_about_container_pagraph_textbox button{
+        margin-left: 5%;
+    }
+}
