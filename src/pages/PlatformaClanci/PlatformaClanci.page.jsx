@@ -4,6 +4,7 @@ import Button from '../../componente/Button/Button.component';
 import Header from "../../componente/Header/Header";
 import './PlatformaClanci.styles.css';
 import OnePost from "../../componente/OnePost/OnePost.component";
+import PostMore from '../../componente/PostMore/postmore.component';
 
 
 const PlatformaClanci = (props) => {
@@ -13,6 +14,12 @@ const PlatformaClanci = (props) => {
         data: null,
         sucess: false,
     });
+
+    const [post,setPost] = useState({
+        slika:null,
+        naslov:null,
+        text:null
+    })
 
     const [openfullscreen,setOpenfullscreen] = useState(false);
 
@@ -35,7 +42,7 @@ const PlatformaClanci = (props) => {
     }, 10000);
 
 
-    if (clanci.data)
+    if (clanci.data && !openfullscreen)
         return (
             <div className="PlatformaClanci">
                 {!openfullscreen
@@ -60,13 +67,19 @@ const PlatformaClanci = (props) => {
                             text={clanak.text}
                             setOpenfullscreen={setOpenfullscreen}
                             openfullscreen={openfullscreen}
+                            setPost={setPost}
                         />))}
                 </div>
 
             </div>
 
         );
-    else return null;
+    else
+    {
+        return (
+        <PostMore slika={post.slika} naslov={post.naslov} text={post.text} setOpenfullscreen={setOpenfullscreen} />
+        )
+    };
 }
 
 export default PlatformaClanci;

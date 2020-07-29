@@ -2,12 +2,18 @@ import React,{useState} from 'react';
 import './OnePost.styles.css';
 import Button from '../../componente/Button/Button.component';
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
-import PostMore from '../PostMore/postmore.component';
+
 
 const OnePost = (props) => {
 
+
     const OpenInFullScreen = () => {
         props.setOpenfullscreen(true);
+        props.setPost({
+            slika: props.slika,
+            naslov: props.naslov,
+            text: props.text
+        })
     };
     if(!props.openfullscreen)
     {
@@ -29,12 +35,6 @@ const OnePost = (props) => {
 
             </div >
         );
-    }
-    else
-    {
-        return (
-        <PostMore slika={props.slika} naslov={props.naslov} text={props.text} setOpenfullscreen={props.setOpenfullscreen} />
-        )
     }
 }
 

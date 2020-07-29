@@ -20,6 +20,7 @@ const PostMore = (props) => {
         <div>
         <p onClick={() => BackToClanci()}>Back</p>
         <img src={props.slika} alt="slika" />
+        <h1>{props.naslov}</h1>
         </div>
     )
 
